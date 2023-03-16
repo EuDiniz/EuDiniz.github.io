@@ -232,6 +232,7 @@ html{
     width: 50%;
     padding: 0 20px;
 }
+/* Skill e Skill1 */
 .skills .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
@@ -245,6 +246,7 @@ html{
     padding-left: 200px;
 }
 
+/* - */
 .skills .skill > span{
     font-weight: bold;
     display: block;
@@ -256,7 +258,7 @@ html{
     font-weight: bold;
     display: block;
     margin-bottom: 25px;
-    padding-left: 2000px;
+    padding-left: 0px;
 }
 .skills .skill .barra-skill{
     height: 8px;
