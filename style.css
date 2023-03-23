@@ -104,7 +104,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #05d1a8;
 }
 .sobremi{
     background-color: #1e2326;
@@ -237,13 +237,14 @@ html{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    padding-left: 10px;
     
 }
 .skills .fila .col h4{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
-    padding-left: 200px;
+    padding-left: 273px;
 }
 
 /* - */
@@ -251,14 +252,14 @@ html{
     font-weight: bold;
     display: block;
     margin-bottom: 25px;
-    
+    padding-left: 15px;
 }
 
 .skills .skill1 > span{
     font-weight: bold;
     display: block;
     margin-bottom: 25px;
-    padding-left: 0px;
+    padding-left: 275px;
 }
 .skills .skill .barra-skill{
     height: 8px;
@@ -266,6 +267,7 @@ html{
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
+    
 }
 
 /* Estas clases se agregaran dinamicamente mediante javascript */
@@ -521,7 +523,7 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
-/* SECCION CONTACTO */
+/* CONTATO */
 .contacto{
     background-image: url(img/contact_bg.png);
     background-color: #1e2326;

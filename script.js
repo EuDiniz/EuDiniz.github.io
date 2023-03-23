@@ -1,5 +1,5 @@
 let menuVisible = false;
-//Función que oculta o muestra el menu
+//Função que oculta o mostrar menu
 function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
@@ -11,11 +11,11 @@ function mostrarOcultarMenu(){
 }
 
 function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
+    //oculta o  menu uam vez que seleciono uma opção
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-//Funcion que aplica las animaciones de las habilidades
+//Função que aplica as animações das habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
@@ -35,7 +35,7 @@ function efectoHabilidades(){
 }
 
 
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
+// scrolling para aplicar da animação da barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
 } 
