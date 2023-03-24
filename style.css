@@ -208,7 +208,7 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
-/* SECCION S K I L L S */
+/* S K I L L S */
 .skills{
     background-color: #252A2E;
     color: #fff;
@@ -261,16 +261,8 @@ html{
     margin-bottom: 25px;
     padding-left: 275px;
 }
-.skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color: #131517;
-    position: relative;
-    margin-bottom: 30px;
-    
-}
 
-/* Estas clases se agregaran dinamicamente mediante javascript */
+/* Estas classes se agregarão dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -360,7 +352,7 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
-/* SECCION CURRICULUM */
+/* CURRICULUM */
 .curriculum{
     background-color: #1e2326;
     color: #fff;
@@ -466,7 +458,7 @@ html{
     position: relative;
     bottom: 4px;
 }
-/* SECCION PORTFOLIO */
+/* PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
     color: #fff;
